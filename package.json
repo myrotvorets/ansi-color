@@ -1,27 +1,33 @@
 {
-    "name": "ansi-color",
-    "version": "0.2.1",
-    "description": "This module provides basic ANSI color code support, to allow you to format your console output with foreground and background colors as well as providing bold, italic and underline support.",
-    "author": "James Smith <james@loopj.com>",
-    "directories": {
-        "lib": "./lib"
-    },
-    "main": "./lib/ansi-color.js",
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/loopj/commonjs-ansi-color.git"
-    },
-    "bugs": {
-        "url": "https://github.com/loopj/commonjs-ansi-color/issues"
-    },
-    "keywords": [
-        "ansi",
-        "color",
-        "console"
-    ],
-    "license": "BSD License",
-    "contributors": [{
-        "name": "vBm",
-        "email": "the.vbm@gmail.com"
-    }]
+  "name": "@myrotvorets/ansi-color",
+  "version": "0.2.1",
+  "description": "This module provides basic ANSI color code support, to allow you to format your console output with foreground and background colors as well as providing bold, italic and underline support.",
+  "author": "James Smith <james@loopj.com>",
+  "main": "./lib/ansi-color.js",
+  "typings": "./lib/ansi-color.d.ts",
+  "scripts": {
+    "test": "node --test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/myrotvorets/ansi-color.git"
+  },
+  "bugs": {
+    "url": "https://github.com/myrotvorets/ansi-color/issues"
+  },
+  "keywords": [
+    "ansi",
+    "color",
+    "console"
+  ],
+  "license": "BSD License",
+  "contributors": [
+    "vBm <the.vbm@gmail.com>",
+    "Myrotvorets <support@myrotvorets.center> (https://myrotvorets.center/)"
+  ],
+  "homepage": "https://github.com/myrotvorets/ansi-color#readme",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  }
 }
